@@ -4,9 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon",
-    
-  "start": "nodemon -r ts-node/register ./src/index.ts"
-
+    "start": "nodemon -r ts-node/register ./src/index.ts"
   },
   "keywords": [],
   "author": "",
