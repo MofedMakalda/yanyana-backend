@@ -14,7 +14,8 @@ import userRoute from "./routes/userRoute";
 dotenv.config();
 
 const app = express();
-const port = process.env.PORT || 3002; // Use PORT from environment or default to 3002
+// const port = process.env.PORT || 3002; // Use PORT from environment or default to 3002
+const port = process.env.PORT ; // Use PORT from environment or default to 3002
 
 // Configure Cloudinary
 cloudinary.v2.config({
