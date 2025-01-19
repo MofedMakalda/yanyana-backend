@@ -82,7 +82,7 @@ cloudinary.v2.config({
 
 const allowedOrigins = [
     "http://localhost:5173", // For local development
-    "https://yanyana-frontend.vercel.app/", // Your Vercel frontend URL
+    "https://yanyana-frontend.vercel.app", // Your Vercel frontend URL
   ];
   
   app.use(
