@@ -139,9 +139,10 @@ cloudinary.v2.config({
 
 // CORS config
 const allowedOrigins = [
-  "http://localhost:5173", // local dev
-  "https://yanyana-frontend.vercel.app", // Vercel
-  "https://yanyana-group.com", // ✅ your custom domain
+  "http://localhost:5173",
+  "https://yanyana-frontend.vercel.app",
+  "https://yanyana-group.com",
+  "https://www.yanyana-group.com", // ✅ Add this!
 ];
 
 app.use(
