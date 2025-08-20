@@ -4,6 +4,7 @@ import { login, register } from "../services/userService";
 
 
 const router = express.Router();
+
 router.post('/register', async (req, res)=>{
     const {firstname, lastname, email, password} = req.body;
     const {statusCode, data} = await register ({firstname, lastname, email, password})
